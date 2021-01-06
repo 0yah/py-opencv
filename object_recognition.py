@@ -18,7 +18,7 @@ loc = np.where(res>=threshold)
 for pt in zip(*loc[::-1]):
     cv2.rectangle(img_rgb, pt, (pt[0] + w, pt[1] + h), (0,255,255), 2) #Draw a yellow box around matches
 
-cv2.imshow('Detected',img_rgb)
+cv2.imshow('Positive Results',img_rgb)
 
 #Wait for any key press then exit
 cv2.waitKey(0)
