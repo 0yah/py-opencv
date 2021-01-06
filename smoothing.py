@@ -3,15 +3,7 @@ import cv2
 import numpy as np 
 
 cap =cv2.VideoCapture(0)
-"""
-Filter based on a specific colour
 
-Convert image to a Hue Saturation Value 
-
-This script will only display the targeted colour
-
-Use trial and error till the desired colour is found
-"""
 while True:
     #Get feed from webcam frame by frame
     _, frame =cap.read()
@@ -33,7 +25,7 @@ while True:
     blur =cv2.GaussianBlur(res,(15,15),0)
     cv2.imshow("Gaussian Blurring",blur)
 
-    
+
     cv2.imshow("Original",frame)
     cv2.imshow("Averaging",smoothed)
     #Bind to keyboard and listen for click after every millisecond
