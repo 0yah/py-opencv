@@ -1,2 +1,2 @@
-# py-opencv
+# opencv
 Computer Vision with Python
