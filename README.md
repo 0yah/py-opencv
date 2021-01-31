@@ -4,9 +4,9 @@ OpenCV is a huge open-source library for computer vision, machine learning, and 
 
 1. Face and eye detection 
 1. Image manipulation
-   1. Edge Detection
+   1. Edge detection
    1. Image smoothing 
    1. Image thresholding
-   1. Image Transformation
+   1. Image transformation
 1. Object Recognition
 1. Webcam Streaming
