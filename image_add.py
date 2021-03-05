@@ -12,7 +12,7 @@ add= img1+img2
 #cv2.imshow("Image Addition",add)
 
 #Using inbuilt Addition function
-#Pixels colours from the first image are added to the second image the maximum sum is 255
+#Pixels colours from the first image are added to the second image the maximum sum is 255.
 add = cv2.add(img1,img2)
 
 cv2.imshow("Image Addition",add)
